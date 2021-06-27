@@ -26,5 +26,5 @@ spec:
   volumes:
        - name: data-mysql
          hostPath:
-          path: /data-volume
+          path: /data-volume #s'assurer de creer le dossier data-volume en local
           type: Directory
