@@ -8,6 +8,6 @@ spec:
   capacity:
     storage: 1Gi
   storageClassName: manual
-  hostPath
-    path: /data-pv
+  hostPath:
+    path: "/data-pv"
      
