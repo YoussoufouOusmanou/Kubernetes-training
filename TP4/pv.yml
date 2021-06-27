@@ -7,7 +7,7 @@ spec:
     - ReadWriteOnce
   capacity:
     storage: 1Gi
-  volumeMode: Filesystem
-  nfs:
+  storageClassName: manual
+  hostPath
     path: /data-pv
-    server: localhost
+     
